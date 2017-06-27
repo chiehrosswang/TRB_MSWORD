@@ -1,12 +1,10 @@
-Attribute VB_Name = "NumFigTab"
-Sub NumFigTab()
-Attribute NumFigTab.VB_Description = "Automatically count number of figures+tables (Style: Caption)"
-Attribute NumFigTab.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.NumFigTab"
 ' Developed by Chieh (Ross) Wang in 2016
-' This macro is free to anyone who wish to use and/or modify as long as the above line is kept in the macro file.
+' This macro is free to anyone who wish to use, modify, expand, and share.
 ' NumFigTab Macro
 ' Automatically count number of figures+tables (Style: Caption)
 '
+
+Sub NumFigTab(Control As IRibbonControl)
     Dim intCount As Integer
     Dim captionCount As Long
     
@@ -38,4 +36,3 @@ Attribute NumFigTab.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.NumFigTab"
     Selection.WholeStory
     Selection.Fields.Update
 End Sub
-
