@@ -9,8 +9,10 @@ This repository contains MS Word templates for preparing TRB peer review papers.
 
 == Update Log ==
 
-06/26/2017: created a customized tab and button for the automated word count (v1.1)
+06/26/2017: updated the Lite version
 
-04/02/2017: uploaded an updated macro-enabled template (v1)
+06/26/2017: created a customized tab and button for the automated word count in the macro-enabled template
+
+04/02/2017: uploaded an updated macro-enabled template
 
 08/25/2016: generated initial repository
