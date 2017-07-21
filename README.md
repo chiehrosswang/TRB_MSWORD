@@ -5,7 +5,7 @@ This repository contains MS Word templates for preparing TRB peer review papers.
 
 2. Macro-enabled version (.dotm): this version enables a simple macro (NumFigTab.bas) that automatically calculates total word count when the "Auto Word Count" button on the "TRB" tab is pressed.  Note that the user has to set up table and figure captions to the correct style (Caption) for the figure/table count to work properly.  To set up caption style, select the entire caption of a figure/table, go to the Home tab, in Styles, select Caption to apply the style.  Once all captions are set up correctly, click the "Auto Word Count" button to automatically update the document and count the total word count.
 
-
+Please note that the templates are provided as is and they are not official TRB provided templates.  Any comments or feedback are appreciated!
 
 == Update Log ==
 
