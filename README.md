@@ -1,18 +1,15 @@
 # TRB_MSWORD
-This repository contains MS Word templates for preparing TRB peer review papers.  Two versions are provided for different users depending on their intended use:
+This repository contains a MS Word template for preparing TRB peer review papers.  It provides pre-defined MS Word styles that can be apply to the title, headings, and table/figure captions according to TRB's guidelines.  It also provides a semi-automatic word count feature that allows users to quickly calculate and present the final word count.  
 
-1. Lite version (.dotx): this version requires user to manually type in the total number of figures and tables, which is a field object, and it automatically calculates total word count when the document is updated (press Ctrl+A to Select All then press F9 to update)
+## Features
+1. Pre-defined Styles for paper title, headings, and table/figure captions.
+2. Semi-automatic word count that automatically calculates the total number of words, including 250 words for each table.
 
-2. Macro-enabled version (.dotm): this version enables a simple macro (NumFigTab.bas) that automatically calculates total word count when the "Auto Word Count" button on the "TRB" tab is pressed.  Note that the user has to set up table and figure captions to the correct style (Caption) for the figure/table count to work properly.  To set up caption style, select the entire caption of a figure/table, go to the Home tab, in Styles, select Caption to apply the style.  Once all captions are set up correctly, click the "Auto Word Count" button to automatically update the document and count the total word count.
+## Usage - Word Count
+1. Enter total number of tables
+2. Select the entire line of the Word Count, then press F9 on your keyboard
+![](https://camo.githubusercontent.com/8b2b1703b84a10188943138da64af3d0bd9d48e3/687474703a2f2f63726f737377616e672e6f72672f77702d636f6e74656e742f75706c6f6164732f323031372f30332f6669656c646f626a2d322e706e67)
+3. Repeat 1 & 2 after making updates to the document
+![](https://camo.githubusercontent.com/978ec8f3366394d82b4ee671fe8721b9d2cf26ee/687474703a2f2f63726f737377616e672e6f72672f77702d636f6e74656e742f75706c6f6164732f323031372f30332f73656c6563742d322e706e67)
 
 Please note that the templates are provided as is and they are not official TRB provided templates.  Any comments or feedback are appreciated!
-
-== Update Log ==
-
-06/26/2017: updated the Lite version
-
-06/26/2017: created a customized tab and button for the automated word count in the macro-enabled template
-
-04/02/2017: uploaded an updated macro-enabled template
-
-08/25/2016: generated initial repository
